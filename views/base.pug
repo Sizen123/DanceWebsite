@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Sizen Dance Class
+    block scripts
+    block style
+  body
+    nav#navbar.top
+        ul
+            div#logo
+              img(src="/static/img/logo.png")
+              | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") ClassInfo]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact]
+    block content
+    section#footerSection
+        | Copyright &copy SizenDanceClass.com | All Rights Reserved
+      
+        

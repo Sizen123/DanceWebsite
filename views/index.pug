@@ -1,0 +1,66 @@
+doctype html
+html
+  head
+    title Sizen Dance Class
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+              img(src="/static/img/logo.png")
+              | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") ClassInfo]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact]
+
+
+    section#introSection
+        div  Welcome to sizen dance class academy
+        div.small Get Set and Dance Together
+
+    section#MissionSection
+        h2 Our Missions
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/static/img/1.jpg")
+            div.card-content  
+              p This is the best dance academy
+        div.card
+          h3 Dance The Way You Like
+          div.card-box
+            div.card-img
+              img(src="/static/img/2.jpg")
+            div.card-content  
+              p This is the best dance academy
+        div.card
+          h3 Dance Change Your Life
+          div.card-box
+            div.card-img
+              img(src="/static/img/3.jpg")
+            div.card-content  
+              p This is the best dance academy
+        div.card
+          h3 Expert Teaching
+          div.card-box
+            div.card-img
+              img(src="/static/img/4.jpg")
+            div.card-content  
+              p This is the best dance academy
+
+    section#sponserSection
+        h2 Our Sponsers 
+        div#sponsers
+          img(src="/static/img/s1.png", alt="Sponser Image", class="spImage")
+          img(src="/static/img/s2.png", alt="Sponser Image", class="spImage")
+          img(src="/static/img/s3.png", alt="Sponser Image", class="spImage")
+          img(src="/static/img/s4.png", alt="Sponser Image", class="spImage")
+
+    section#footerSection
+        | Copyright &copy SizenDanceClass.com | All Rights Reserved
+    script
+      include ../static/index.js
